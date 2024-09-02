@@ -1,0 +1,25 @@
+Technical Design Document Template
+---
+Name: [Jonathon Draper]
+Date Created: [9/1/24]
+---
+Program Description:
+This program simulates a Magic 8 Ball, a toy that answers yes/no questions with randomized responses.
+---
+Logical Steps:
+Step 1: Create a list of predefined Magic 8 Ball responses.
+Step 2: Write these responses to a file named 8ball_responses.txt, with each response on a new line.
+Step 3: Open and read the 8ball_responses.txt file, storing the responses in a list.
+Step 4: Enter a loop that repeatedly prompts the user to ask a yes/no question.
+---
+Variables:
+1: responses (List of Strings): Stores the predefined Magic 8 Ball responses.
+2: question (String): Holds the user’s yes/no question input.
+3: response_file (File Object): Used to read/write to the 8ball_responses.txt file.
+
+---
+Functions:
+Function Name: create_responses_file
+Description: Writes a predefined list of Magic 8 Ball responses to the file 8ball_responses.txt.
+Parameters: None
+Returns: None
