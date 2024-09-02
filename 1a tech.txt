@@ -1,0 +1,33 @@
+Technical Design Document Template
+---
+Name: [Jonathon Draper]
+Date Created: [9/1/24]
+---
+Program Description:
+This program is designed to pre-sell a limited number of cinema tickets. The program starts with 20 tickets available for purchase, and each buyer can buy up to 4 tickets.
+---
+Logical Steps:
+Step 1: Initialize the total number of tickets (total_tickets) to 20 and the maximum number of tickets per buyer (max_tickets_per_buyer) to 4. 
+Set total_buyers to 0 as an accumulator to keep track of the number of buyers.
+Step 2: Enter a loop that continues until all tickets are sold (total_tickets > 0).
+Step 3: Inside the loop, prompt the user to input the number of tickets they want to buy.
+---
+Variables:
+1. total_tickets (Integer): Tracks the remaining number of cinema tickets available for sale. Initially set to 20.
+2. total_buyers (Integer): Accumulator variable that counts the number of buyers who have purchased tickets.
+3. tickets_requested (Integer): Stores the number of tickets requested by the user in each iteration of the loop.
+
+---
+Functions:
+1. Function Name: [Name of the function]
+Description: [Brief description of what the function does]
+Parameters: [List and describe the parameters the function takes]
+Returns: [Describe what the function returns]
+---
+Link to repository: www.repository.com
+---
+### Example Filled Template ###
+---
+Name: John Doe
+Date Created: June 19, 2024
+---
